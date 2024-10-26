@@ -16,7 +16,7 @@ Opcode;Name;Description
 001110;ROTATE RIGHT;shifts A binary right without carry
 001111;ROTATE RIGHT WITH C;shifts A binary right with carry
 010000;JUMP;jumps to the command at the address specified in DB
-010001;JUMP IF =;if the numbers in registers A=B, jumps to the command at the address specified in DB
-010010;JUMP IF <;if the numbers in registers A<B, jumps to the command at the address specified in DB
-010011;JUMP IF <=;if the numbers in registers A<=B, jumps to the command at the address specified in DB
+010001;JUMP IF (=);if the numbers in registers A=B, jumps to the command at the address specified in DB
+010010;JUMP IF (<);if the numbers in registers A<B, jumps to the command at the address specified in DB
+010011;JUMP IF (<=);if the numbers in registers A<=B, jumps to the command at the address specified in DB
 111111;END;ends the program
