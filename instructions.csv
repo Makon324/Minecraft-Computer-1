@@ -1,22 +1,22 @@
-Opcode;Name;Description
-000000;MOV;moves the number from register B to A
-000001;WRITE;writes the number provided in DB to the register
-000010;GET;retrieves a number from the user and saves it in the register
-000011;DISPLAY;displays the number from the register
-000100;NOT;negates the number
-000101;OR;passes number A and B through the OR gate
-000110;XOR;passes number A and B through the XOR gate
-000111;AND;passes number A and B through the AND gate
-001000;SUM;increases number A by B
-001001;SUB;decreases number A by B
-001010;INC;increases A by 1
-001011;DEC;decreases A by 1
-001100;ROTATE LEFT;shifts A binary left without carry
-001101;ROTATE LEFT WITH C;shifts A binary left with carry
-001110;ROTATE RIGHT;shifts A binary right without carry
-001111;ROTATE RIGHT WITH C;shifts A binary right with carry
-010000;JUMP;jumps to the command at the address specified in DB
-010001;JUMP IF (=);if the numbers in registers A=B, jumps to the command at the address specified in DB
-010010;JUMP IF (<);if the numbers in registers A<B, jumps to the command at the address specified in DB
-010011;JUMP IF (<=);if the numbers in registers A<=B, jumps to the command at the address specified in DB
-111111;END;ends the program
+Opcode,Name,Description
+000000,MOV,moves the number from register B to A
+000001,WRITE,writes the number provided in DB to the register
+000010,GET,retrieves a number from the user and saves it in the register
+000011,DISPLAY,displays the number from the register
+000100,NOT,negates the number
+000101,OR,passes number A and B through the OR gate
+000110,XOR,passes number A and B through the XOR gate
+000111,AND,passes number A and B through the AND gate
+001000,SUM,increases number A by B
+001001,SUB,decreases number A by B
+001010,INC,increases A by 1
+001011,DEC,decreases A by 1
+001100,ROTATE LEFT,shifts A binary left without carry
+001101,ROTATE LEFT WITH C,shifts A binary left with carry
+001110,ROTATE RIGHT,shifts A binary right without carry
+001111,ROTATE RIGHT WITH C,shifts A binary right with carry
+010000,JUMP,jumps to the command at the address specified in DB
+010001,JUMP IF (=),if the numbers in registers A=B jumps to the command at the address specified in DB
+010010,JUMP IF (<),if the numbers in registers A<B jumps to the command at the address specified in DB
+010011,JUMP IF (<=),if the numbers in registers A<=B jumps to the command at the address specified in DB
+111111,END,ends the program
