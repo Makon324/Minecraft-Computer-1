@@ -9,8 +9,8 @@ Opcode;Name;Description
 000111;AND;passes number A and B through the AND gate
 001000;SUM;increases number A by B
 001001;SUB;decreases number A by B
-001010;1;increases A by 1
-001011;-1;decreases A by 1
+001010;INC;increases A by 1
+001011;DEC;decreases A by 1
 001100;ROTATE LEFT;shifts A binary left without carry
 001101;ROTATE LEFT WITH C;shifts A binary left with carry
 001110;ROTATE RIGHT;shifts A binary right without carry
